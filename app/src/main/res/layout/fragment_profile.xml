@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/teks1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:text="About Me"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="28sp" />
+    <View
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:background="#4D5EFF"
+        android:visibility="visible" />
+
+
+    <View
+        android:layout_width="340dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:background="#4D5EFF"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/IV"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/style"
+        />
+
+    <TextView
+        android:id="@+id/teks2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:fontFamily="sans-serif"
+        android:text="Hi, im Ridhwan, nice to meet you"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/teks3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:fontFamily="sans-serif"
+        android:text="im just an average boy who's"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:id="@+id/teks4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:fontFamily="sans-serif"
+        android:text="trying to make
+mom and dad proud"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/teks5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:fontFamily="sans-serif"
+        android:text="i have a big dream, and hopefuly "
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/teks6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:fontFamily="sans-serif"
+        android:text="i can reach it"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/teks7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:fontFamily="sans-serif"
+        android:text="currently studying at"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/teks8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:fontFamily="sans-serif"
+        android:text="Pembangunan Nasional University"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp" />
+
+
+
+
+
+
+</RelativeLayout>
